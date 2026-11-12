@@ -83,4 +83,56 @@ dialog{border:1px solid var(--divider);border-radius:28px;width:min(650px,calc(1
 
 @media print{.skill-group{background:white;border-color:#ccc;box-shadow:none;break-inside:avoid}.tool-item{background:white;border-color:#ddd}.tool-label,.cloud-services p,.cloud-services li{color:#333}.cloud-services{border-color:#ddd}.logo-light img{filter:brightness(0);opacity:1}.skills-grid{gap:16px}.tool-list{grid-template-columns:repeat(2,minmax(0,1fr))}}
 
+.time-before strong{color:#ff8f8f}.time-before>div{background:#d65f63!important}
+
+.contact-email{display:inline-flex;align-items:center;gap:8px}.contact-email .copy-button{padding:4px;min-height:28px}
+
+.specialization-group{margin-bottom:20px}
+.timeline{position:relative;padding-left:26px;border-left:1px solid #70b6ff55}
+.timeline .role{position:relative;padding-bottom:34px}
+.timeline .role+.role{border-top:0;padding-top:0}
+.timeline .role:last-child{padding-bottom:0}
+.timeline .role:before{content:"";position:absolute;left:-32px;top:5px;width:10px;height:10px;border-radius:50%;background:#70b6ff;border:2px solid #08090c;box-shadow:0 0 0 4px #70b6ff15}
+.experience-keywords{display:flex;flex-wrap:wrap;gap:8px;margin-top:17px}
+.experience-keywords span{font-size:11px;line-height:1.5;color:#c4c9d5;background:#ffffff04;border:1px solid #ffffff1c;border-radius:7px;padding:7px 10px}
+.performance{background:#352335}
+.copilot{background:#182d40}
+.orchestrator-ring{width:100%;height:135px;flex-shrink:1;min-height:0;overflow:visible}
+.service-orbit{fill:none;stroke:#81bbdf;stroke-width:1;stroke-dasharray:3 4;opacity:.65}
+.orbiting-services{fill:#a9d6f3;stroke:#182d40;stroke-width:3;transform-origin:160px 90px;animation:service-orbit 30s linear infinite}
+.orchestrator-center{fill:#244963;stroke:#81bbdf;stroke-width:1.2}
+.orchestrator-center-label{fill:#d3ecff;stroke:none;font-family:inherit;font-size:11px;font-weight:600}
+@keyframes service-orbit{to{transform:rotate(360deg)}}
+@media(prefers-reduced-motion:reduce){.orbiting-services{animation:none}}
+.orchestrator-label{font-size:12px;font-weight:600;margin-top:4px}
+.copilot-visual{flex-direction:column;align-items:center;color:#a9d6f3}
+.copilot-agents{border:1px solid #81bbdf80;border-radius:10px;padding:11px 22px;background:#ffffff06;font-size:12px;font-weight:600}
+.copilot-connectors{display:flex;justify-content:space-between;width:180px;height:26px;border-top:1px solid #81bbdf66;margin-top:12px;position:relative}
+.copilot-connectors:before{content:"";position:absolute;left:50%;top:-13px;height:12px;border-left:1px solid #81bbdf66}
+.copilot-connectors span{height:26px;border-left:1px solid #81bbdf66}
+.copilot-services{display:flex;gap:14px}
+.copilot-services>span{width:76px;padding:4px 8px 10px;text-align:center;border:1px solid #81bbdf55;border-radius:8px;font-size:28px;line-height:1.2}
+.copilot-services small{display:block;font-size:9px;margin-top:4px}
+.copilot-caption{font-size:8px;letter-spacing:1px;margin-top:12px}
+.cdm-delivery{background:#30271b}
+.cdm-visual{flex-direction:column;align-items:center;gap:10px;color:#eed29c}
+.cdm-source{font-size:9px;letter-spacing:1.5px}
+.cdm-arrow{font-size:20px;color:#bc995d}
+.cdm-stages{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;max-width:100%}
+.cdm-stages>span:nth-child(odd){padding:5px 18px;border:1px solid #d8b57366;border-radius:8px;background:#ffffff05;font-size:12px;font-weight:600;white-space:nowrap}
+.cdm-stages>span:nth-child(even){font-size:12px;line-height:12px}
+.cdm-caption{font-size:8px;letter-spacing:1px;margin-top:5px}
+.work-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+.regulatory{background:#14302e}
+.regulatory-visual{flex-direction:column;align-items:center;gap:6px}
+.regulatory-globe{width:100%;height:155px;stroke:#70b8ab;stroke-width:1;overflow:visible}
+.regulatory-links{stroke:#a1e5ce;stroke-width:1.2}
+.regulatory-nodes,.regulatory-hub{fill:#a1e5ce;stroke:#14302e}
+.regulatory-labels{fill:#d2eee5;stroke:none;font-family:inherit;font-size:10px;font-weight:600;letter-spacing:1px}
+.regulatory-caption{font-size:8px;letter-spacing:1.5px;color:#b1dccd}
+@media(max-width:760px){.work-grid{grid-template-columns:1fr}}
+.skills-specialization{display:flex;flex-wrap:wrap;gap:10px;list-style:none;padding:0;margin:0}
+.skills-specialization li{padding:11px 15px;border:1px solid #ffffff21;border-radius:10px;background:#ffffff04;color:#c4c9d5;font-size:13px;line-height:1.5}
+@media(max-width:760px){.skills-specialization{gap:8px}.skills-specialization li{font-size:12px;padding:9px 12px}}
+
 

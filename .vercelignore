@@ -1,3 +1,0 @@
-# Vercel rebuilds the static output from src/ and public/.
-dist/
-*.log

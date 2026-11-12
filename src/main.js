@@ -23,6 +23,37 @@ const cases = {
     ],
     stack: 'CDM · Data transformation · Concurrency · Batching · API optimisation'
   },
+  regulatory: {
+    category: 'Regulatory engineering · J.P. Morgan',
+    title: 'Regulatory enrichment across six regimes.',
+    intro: 'Delivered regulatory rewrites across SEC, FCA, CFTC, ASIC, HKMA, and JFSA for equity derivatives reporting.',
+    points: [
+      'Implemented regulatory rules and integrated reference data to support reporting requirements across six regimes.',
+      'Enriched existing trades and positions representing over $1 trillion in notional value.',
+      'Achieved approximately 97% report acceptance by DTCC.'
+    ],
+    stack: 'Regulatory Rules · Reference Data · Trade & Position Enrichment · DTCC'
+  },
+  cdm: {
+    category: 'CDM & DRR delivery · J.P. Morgan',
+    title: 'Industry-first equity derivatives reporting.',
+    intro: 'Contributed to implementing Digital Regulatory Reporting (DRR) using the Common Domain Model (CDM) for equity derivatives as part of JPMorganChase’s industry-first adoption initiative.',
+    points: [
+      'Implemented CDM and DRR for equity derivatives within the trade management and regulatory reporting workflow.',
+      'Contributed to the initiative recognized by the 2024 FINOS Adoption Achiever Award, awarded to JPMorganChase.'
+    ],
+    stack: 'Common Domain Model · Digital Regulatory Reporting · Equity Derivatives'
+  },
+  copilot: {
+    category: 'Developer productivity · J.P. Morgan',
+    title: 'Microservice orchestrator for local development.',
+    intro: 'Built a microservice orchestrator for local development environments spanning more than 15 microservices.',
+    points: [
+      'Orchestrated 15+ components across multiple technology stacks in local development environments.',
+      'Improved development speed by approximately 20% through automated orchestration.'
+    ],
+    stack: 'Microservice Orchestrator · Multi-stack Orchestration · Local Development'
+  },
   intelligence: {
     category: 'Applied AI · J.P. Morgan',
     title: 'Knowledge, connected to the work.',
