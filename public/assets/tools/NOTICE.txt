@@ -1,0 +1,50 @@
+Tool icon sources
+
+Devicon
+https://github.com/devicons/devicon/tree/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6
+Icons: linkedin, java, spring, python, fastapi, react, apachekafka, apachespark, pandas, postgresql, mysql, amazonwebservices, terraform, docker, kubernetes, jenkins, datadog, claudecode, pytest, playwright, junit
+
+The MIT License (MIT)
+
+Copyright (c) 2015 konpa
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the "Software"), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+the Software, and to permit persons to whom the Software is furnished to do so,
+subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
+Simple Icons
+https://github.com/simple-icons/simple-icons/tree/cd796c98565fc466923fc1128b962e133fa3c612
+Icons: langchain, modelcontextprotocol, apacheparquet, apacheavro, spinnaker
+Distributed under CC0-1.0: https://creativecommons.org/publicdomain/zero/1.0/
+
+Brand marks belong to their respective owners and identify technologies used by Sri Hari.
+Database, API, retrieval, vector, and testing symbols are custom generic illustrations, not brand logos.
+
+AWS service architecture icons
+Source: https://aws.amazon.com/architecture/icons/
+Official icon package, release 2026-07-31:
+https://d1.awsstatic.com/onedam/marketing-channels/website/public/shared/architecture-icon-release/Icon-package_07312026.5846e92413caa21490223536cc97f1269e44fa92.zip
+EC2: Architecture-Service-Icons_07312026/Arch_Compute/32/Arch_Amazon-EC2_32.svg
+ECS: Architecture-Service-Icons_07312026/Arch_Containers/32/Arch_Amazon-Elastic-Container-Service_32.svg
+S3: Architecture-Service-Icons_07312026/Arch_Storage/32/Arch_Amazon-Simple-Storage-Service_32.svg
+SQS: Architecture-Service-Icons_07312026/Arch_Application-Integration/32/Arch_Amazon-Simple-Queue-Service_32.svg
+SNS: Architecture-Service-Icons_07312026/Arch_Application-Integration/32/Arch_Amazon-Simple-Notification-Service_32.svg
+Lambda: Architecture-Service-Icons_07312026/Arch_Compute/32/Arch_AWS-Lambda_32.svg
+Glue: Architecture-Service-Icons_07312026/Arch_Analytics/32/Arch_AWS-Glue_32.svg
+Athena: Architecture-Service-Icons_07312026/Arch_Analytics/32/Arch_Amazon-Athena_32.svg
+Step Functions: Architecture-Service-Icons_07312026/Arch_Application-Integration/32/Arch_AWS-Step-Functions_32.svg
+Icons belong to Amazon Web Services and identify the services used. SVG artwork is unmodified.

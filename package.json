@@ -1,0 +1,14 @@
+{
+  "name": "sri-hari-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "dev:network": "node scripts/serve.mjs --host",
+    "build": "node scripts/build.mjs",
+    "preview": "node scripts/serve.mjs --production",
+    "check": "node --check src/main.js && node --check scripts/build.mjs && node --check scripts/serve.mjs"
+  },
+  "engines": { "node": "22.x" }
+}
