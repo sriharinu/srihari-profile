@@ -1,16 +1,17 @@
 # Sri Hari — personal portfolio
 
-A responsive portfolio built from scratch with semantic HTML, CSS, and vanilla JavaScript. No framework, runtime dependencies, or Python environment is required. Content is based on the supplied résumé.
+A responsive portfolio built with React, TypeScript, Vite, and semantic HTML/CSS. Content is based on the supplied résumé, with the structure ready for a future backend integration.
 
 ## Develop
 
-Use Node.js 22.x, matching the Vercel build configuration. No package installation is needed for local development or the site build.
+Use Node.js 22.x, matching the Vercel build configuration. Install dependencies once:
 
 ```sh
+npm install
 npm run dev
 ```
 
-Open http://127.0.0.1:4173. Refresh the page after editing.
+Open http://127.0.0.1:4173. Vite updates the page as you edit.
 
 To check the site on a phone, run:
 
@@ -18,7 +19,7 @@ To check the site on a phone, run:
 npm run dev:network
 ```
 
-Connect the phone to the same Wi-Fi as the computer, then open the printed Network URL. Keep the server running while testing. Stop any existing local preview before starting this command, since both use port 4173.
+Connect the phone to the same Wi-Fi as the computer, then open the printed Network URL. Keep the server running while testing.
 
 ## Check and build
 
@@ -28,7 +29,7 @@ npm run build
 npm run preview
 ```
 
-The build copies [src](./src) and [public](./public) into `dist`, ready for static hosting. The server binds to localhost by default; `--host` enables local-network access.
+The build type-checks the app and produces a Vite bundle in `dist`, ready for static hosting. The dev server binds to localhost by default; `--host` enables local-network access.
 
 ## Host on Vercel Hobby
 
@@ -51,7 +52,7 @@ For later updates, run `npx vercel@latest --prod` again from this folder. Local 
 
 ### Deploy through Git
 
-1. Put this website folder in its own Git repository and push it to your Git provider. Include [src](./src), [public](./public), [scripts](./scripts), [package.json](./package.json), and [vercel.json](./vercel.json). The generated `dist` folder is not committed.
+1. Put this website folder in its own Git repository and push it to your Git provider. Include [src](./src), [public](./public), [package.json](./package.json), and [vercel.json](./vercel.json). The generated `dist` folder is not committed.
 2. In Vercel, choose **Add New → Project**, select your Hobby account/team, and import the repository.
 3. Set **Root Directory** to the folder containing [vercel.json](./vercel.json). For a repository containing only this project, use the repository root.
 4. Confirm the settings below and deploy. Future pushes to the connected production branch trigger new deployments.
@@ -61,7 +62,7 @@ For later updates, run `npx vercel@latest --prod` again from this folder. Local 
 | Framework Preset | Other |
 | Build Command | `npm run check && npm run build` |
 | Output Directory | `dist` |
-| Install Command | Skipped (`installCommand` is an empty string) |
+| Install Command | `npm install` |
 | Node.js Version | 22.x |
 | Environment Variables | None |
 
@@ -73,13 +74,14 @@ The framework, build, install, and output settings are defined in [vercel.json](
 - Check section navigation, project detail dialogs, résumé download, and the LinkedIn links.
 - Update content in [src](./src) or assets in [public](./public), then redeploy.
 
-The site uses section anchors such as `/#experience`, so no catch-all rewrite is needed. Asset URLs such as `/assets/sri-hari-resume.pdf` resolve directly from the built output. [.vercelignore](./.vercelignore) excludes local build output and logs from CLI uploads; Vercel recreates the build remotely.
+The site uses section anchors such as `/#experience`, so no catch-all rewrite is needed. Asset URLs such as `/assets/sri-hari-resume.pdf` resolve directly from the built output.
 
 ## Edit
 
-- [src/index.html](./src/index.html): profile, experience, skills, and contact content.
+- [src/App.tsx](./src/App.tsx): profile, experience, skills, contact content, and typed project data.
 - [src/styles.css](./src/styles.css): desktop, mobile, reduced-motion, and print styles.
-- [src/main.js](./src/main.js): project detail dialogs, email copy action, and active navigation.
+- [src/main.tsx](./src/main.tsx): React application entry point.
+- [vite.config.ts](./vite.config.ts): Vite and React plugin configuration.
 - [public/assets](./public/assets): original portrait and résumé.
 - [public/assets/tools](./public/assets/tools): locally hosted SVG logos and generic concept icons used in the Skills section. Source and license details are in [NOTICE.txt](./public/assets/tools/NOTICE.txt).
 

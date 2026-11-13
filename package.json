@@ -4,11 +4,25 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "node scripts/serve.mjs",
-    "dev:network": "node scripts/serve.mjs --host",
-    "build": "node scripts/build.mjs",
-    "preview": "node scripts/serve.mjs --production",
-    "check": "node --check src/main.js && node --check scripts/build.mjs && node --check scripts/serve.mjs"
+    "dev": "vite",
+    "dev:network": "vite --host",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "check": "tsc --noEmit"
   },
-  "engines": { "node": "22.x" }
+  "engines": {
+    "node": ">=22.0.0 <23.0.0"
+  },
+  "dependencies": {
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.3.0",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.8"
+  }
 }
