@@ -29,7 +29,7 @@ const cases: Record<CaseId, CaseStudy> = {
     category: 'Regulatory engineering · J.P. Morgan',
     title: 'Regulatory enrichment across six regimes.',
     intro: 'Delivered regulatory rewrites across SEC, FCA, CFTC, ASIC, HKMA, and JFSA for equity derivatives reporting.',
-    points: ['Implemented regulatory rules and integrated reference data to support reporting requirements across six regimes.', 'Enriched existing trades and positions representing over $1 trillion in notional value.', 'Achieved approximately 97% report acceptance by DTCC.'],
+    points: ['Implemented regulatory rules and integrated reference data to support reporting requirements across six regimes.', 'Enriched existing trades and positions representing over $5 trillion notional scale.', 'Achieved approximately 97% report acceptance by DTCC.'],
     stack: 'Regulatory Rules · Reference Data · Trade & Position Enrichment · DTCC',
   },
   cdm: {
